@@ -1,0 +1,98 @@
+/* ###########################################################################
+
+GLOBAL ASSETS RELEASE v2.7.1
+
+SUN MEDIA-SHELL.CSS v2.1
+
+BUILD DATE: 20070531
+
+COPYRIGHT SUN MICROSYSTEMS INC. 2007
+
+IF YOU WISH TO ADD TO OR EDIT THIS CSS CONTACT webdesign -at- sun.com FIRST!
+
+NOTE: YOU *MUST* CHANGE ALL REFERENCES TO /IM TO REFLECT THE APPROPRIATE DIRECTORY.
+
+########################################################################### */
+
+body.a0v3{padding:0px 10px;width:auto;margin:0px}
+div#pagewrap{position:relative;min-width:642px;padding:1px 0px}
+div.pagetitle{margin:10px 0px;padding:0px}
+
+/* media shell */
+div.k3{background:#A3B8CB url("/im/media-shell-gradient.jpg") repeat-x 0px 0px; padding-bottom:1px}
+div.pagetitle + div.k3{border-top:2px solid #527D9B}
+
+/* the "stretched" canvas */
+div.k3stretch{height:492px}
+html>body div.k3stretch{height:auto;min-height:492px}
+
+/* the main canvas */
+div.k3obj-container,div.k3obj-gallery{padding:15px 10px 0px 10px;position:relative}
+div.k3obj-container div.k3w1{margin:auto}
+div.k3obj-container div.k3w1,div.k3obj-gallery div.k3w1{background:#fff;width:535px;position:relative}
+div.k3obj-container div.k3w3,div.k3obj-gallery div.k3w3{display:table;width:100%}
+div.k3obj-container div.k3w4,div.k3obj-gallery div.k3w4{height:428px;padding:0px;display:table-cell;vertical-align:middle;text-align:center}
+p.k3obj{margin:0px;z-index:200}
+
+/* rounded corners */
+span.extraSpan1,
+span.extraSpan2,
+span.extraSpan3,
+span.extraSpan4{display:block;position:absolute;z-index:500;background:transparent url("/im/a.gif") no-repeat top left;width:7px;height:7px}
+span.extraSpan1{left:0px;top:0px;background-image:url("/im/media-shell-tl.gif");background-position:top left}
+span.extraSpan2{right:0px;top:0px;background-image:url("/im/media-shell-tr.gif");background-position:top right}
+span.extraSpan3{right:0px;bottom:0px;background-image:url("/im/media-shell-br.gif");background-position:bottom right}
+span.extraSpan4{left:0px;bottom:0px;background-image:url("/im/media-shell-bl.gif");background-position:bottom left}
+/* ie */
+body.browserExplorer56 span.extraSpan2,
+body.browserExplorer56 span.extraSpan3{right:-1px}
+
+.k3obj{position:relative;z-index:100}
+.k3w4{position:relative;z-index:200}
+
+/* suppress the white stage */
+div.k3blank-stage div.k3w1,
+div.k3blank-stage div.k3w2,
+div.k3blank-stage div.k3w3,
+div.k3blank-stage div.k3w4{background:transparent}
+div.k3blank-stage kiv.k3obj-container div.k3w1{width:100%}
+div.k3blank-stage span.extraSpan1,
+div.k3blank-stage span.extraSpan2,
+div.k3blank-stage span.extraSpan3,
+div.k3blank-stage span.extraSpan4{display:none}
+
+/* video layout table */
+table.k3video-layout{width:575px;margin:0px auto 30px auto}
+table.k3video-layout td{padding-top:30px;vertical-align:top;text-align:left}
+td.k3video-info{padding-left:15px}
+
+/* gallery thumbnails */
+div.k3obj-gallery div.k3thumbs{text-align:right;position:absolute;top:9px;right:10px}
+div.k3obj-gallery div.k3thumbs ul{margin:0;padding:0;list-style:none}
+div.k3obj-gallery div.k3thumbs li{list-style-image:url("/im/a.gif");margin:6px 0px}
+div.k3obj-gallery div.k3thumbs li img{width:77px;height:64px;vertical-align:middle;margin-bottom:3px}
+div.k3obj-gallery div.k3thumbs li a{padding-bottom:1px}
+div.k3obj-gallery div.k3thumbs li a:hover img,div.k3obj-gallery div.k3thumbs li a.k3current img{background:transparent url("/im/pc3_border_on.gif") no-repeat 0 0}
+div.k3obj-gallery div.k3thumbs li a img{background:transparent url("/im/pc3_border_off.gif") no-repeat 0 0}
+img{border:none}
+
+/* gallery description and prev/next links */
+div.k3obj-gallery p.k3obj-desc{margin:0px;padding:10px 0px;position:relative;padding-right:110px;width:425px}
+div.k3obj-gallery span.k3prevnext{position:absolute;top:10px;right:0px}
+
+/* footer links in media shell */
+body.a0v3 div.a5{text-align:center;background:#A3B8CB url("/im/logo_sun_shell.gif") no-repeat bottom right;margin:-10px 0 0 0;padding:17px 70px 19px 70px}
+body.a0v3 div.a5 a:link,div.k3 a:link{color:black;border-color:black}
+body.a0v3 div.a5 a:visited,div.k3 a:visited{color:black;border-color:black}
+body.a0v3 div.a5 a:hover,div.k3 a:hover{color:black;border-color:black}
+body.a0v3 div.a5 a:active,div.k3 a:active{color:black;border-color:black}
+
+/* close window button */
+p#close-win{position:absolute;top:10px;right:10px;margin:0}
+p#close-win a{color:#3E6B8A}
+
+/* ie */
+/* a particularly brutal one because "div.pagetitle + div.k3" isn't possible in ie */
+div.k3{border-top:expression((function(el){while(el.previousSibling.nodeType!=1){el=el.previousSibling}return el}(this).previousSibling.className.match(/pagetitle/))?"2px solid #527D9B":"none")}
+/* for vertical centering */
+div.k3obj-container div.k3w4 .k3obj,div.k3obj-gallery div.k3w4 .k3obj{margin-top:expression((this.parentNode.offsetHeight - this.offsetHeight) / 2 + "px")}

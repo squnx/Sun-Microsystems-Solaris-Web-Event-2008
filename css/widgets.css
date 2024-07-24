@@ -1,0 +1,52 @@
+/* ###########################################################################
+
+GLOBAL ASSETS RELEASE v2.7.1
+
+SUN WIDGETS.CSS v1.0BETA
+
+BUILD DATE: 20070531
+
+COPYRIGHT SUN MICROSYSTEMS INC. 2007
+
+IF YOU WISH TO ADD TO OR EDIT THIS CSS CONTACT webdesign -at- sun.com FIRST!
+
+NOTE: YOU *MUST* CHANGE ALL REFERENCES TO /IM TO REFLECT THE APPROPRIATE DIRECTORY.
+
+########################################################################### */
+
+/* wg1 */
+
+div.wg1subsect{display:none;}
+div.wg1shown{display:block;}
+div.wg1control-panel{display:none;}
+div.wg1editing{display:block;}
+div.wg1{margin:10px 0px;}
+.wg1 h1,.wg1 h2,.wg1 h3,.wg1 h4,.wg1 h5,.wg1 h6,.wg1 ol,.wg1 ul,.wg1 dl,.wg1 p{margin-top:6px;margin-bottom:6px;font-size:13px;}
+div.wg1 img{border:none;vertical-align:middle;}
+div.wg1head,div.wg1head *{color:white;font-size:13px;}
+div.wg1head{background:#35556B url("/im/bg_titlebar.gif") repeat-x top left;}
+div.wg1head h2{background:transparent url("/im/a2_corner_tr.gif") no-repeat top right;margin:0px;padding:6px 10px 5px 10px;}
+div.wg1subhead{background:#ccdae3;padding:1px 10px;position:relative;}
+div.wg1subhead p{margin:3px 0px;}
+div.wg1subhead p.wg1edit-toggler{position:absolute;top:7px;right:10px;margin:0px;}
+* html div.wg1subhead p.wg1edit-toggler{position:relative;left:0;top:0;text-align:right;margin-top:-21px;padding-bottom:6px;}
+* html div.wg1subhead p.wg1edit-toggler a:visited{color:#35556B;}
+a.wg1saving{color:#bf6500;background:transparent url("/im/ic_spinner.gif") no-repeat 0px 1px;padding:3px 0px 6px 24px;}
+a.wg1saving:link,a.wg1saving:visited,a.wg1saving:hover{color:#bf6500;}
+div.wg1control-panel p{text-indent:-17px;padding-left:17px;}
+div.wg1body{background:#eee;padding:4px 10px;min-height:30px;}
+div.wg1 table.layout{width:100%;border-collapse:collapse;}
+div.wg1 table.twocol td{width:50%;vertical-align:top;padding:0px 0px 6px 0px;}
+div.wg1 table.twocol td.col1{padding-right:5px;}
+div.wg1 table.twocol td.col2{padding-left:5px;}
+div.wg1sect h4{position:absolute;top:-10000px;left:-10000px;}
+div.wg1subsect{padding-bottom:4px;background:transparent url("/im/grey_horiz_groove.gif") repeat-x bottom;margin-bottom:10px;position:relative;}
+div.wg1subsect ul{list-style:none;list-style-image:url("/im/a.gif");margin-left:0px;padding-left:10px;}
+div.wg1subsect li{list-style:none;list-style-image:url("/im/a.gif");margin:2px 0px;padding-left:10px;background:url("/im/ar_dbl_blue.png") no-repeat left top;}
+* html div.wg1subsect li{background:url("/im/ar_dbl_blue.gif") no-repeat left top;}
+div.wg1body p.wg1feed{position:absolute;top:-7px;right:0px;}
+* html div.wg1body p.wg1feed{left:expression((this.parentNode.offsetWidth - this.offsetWidth)+'px');}
+div.wg1body p.wg1feed a.wg1feed-link{padding-right:21px;background:transparent url("/im/ic_feed_16x.gif") no-repeat top right;padding-bottom:4px;line-height:18px;}
+
+
+

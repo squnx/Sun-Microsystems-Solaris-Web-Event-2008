@@ -1,0 +1,22 @@
+/* ###########################################################################
+
+GLOBAL ASSETS RELEASE 2.7.1
+
+SUN JP.CSS v1.0
+
+COPYRIGHT SUN MICROSYSTEMS INC. 2007
+
+THIS CSS IS FOR GEO SPECIFIC STYLES IF YOU WISH TO MAKE ADDITIONS TO THIS CSS
+PLEASE CONTACT webdesign -at- sun.com.
+
+NOTE: YOU *MUST* CHANGE ALL REFERENCES TO /IM TO REFLECT THE APPROPRIATE DIRECTORY.
+
+########################################################################### */
+
+html font{font-family:"Osaka",Arial,Helvetica,sans-serif !important}
+html body,html th,html td,html p,html div,html span,html a,html input,html select,html textarea,html ul,html ol,html dl,html h1,html h2,html h3,html h4,html h5,html h6,html li,html big,html small,html b,html pre.sunfont{font-family:Osaka,Arial,Helvetica,"Luxi-sans","Nimbus Sans L",sans-serif}
+html code,html kbd,html tt,html pre,html pre *,html code *,html code a,html kbd a,html tt a,html pre a,html code span,html kbd span,html tt span,html pre span,html pre b{font-family:Osaka,Monaco,Courier,"Courier New"} 
+
+/* a2 */
+html .a2 td.navlinks{padding:0px 5px 0px 5px} 
+html #searchfield{width:75px}

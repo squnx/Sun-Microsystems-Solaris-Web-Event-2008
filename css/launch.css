@@ -1,0 +1,79 @@
+/* ###########################################################################
+
+GLOBAL ASSETS RELEASE v2.7.1
+
+SUN LAUNCH.CSS v1.0
+
+BUILD DATE: 20070531
+
+COPYRIGHT SUN MICROSYSTEMS INC. 2007
+
+IF YOU WISH TO ADD TO OR EDIT THIS CSS CONTACT webdesign -at- sun.com FIRST!
+
+NOTE: YOU *MUST* CHANGE ALL REFERENCES TO /IM TO REFLECT THE APPROPRIATE DIRECTORY.
+
+########################################################################### */
+
+div#sharepage{_padding-right:0px}
+
+.ln1 a.icon {margin-right:12px}
+.d7 .d7v9 {background:url('/im/bg_ln_blue2grey.gif') repeat-x 0 0 #eee}
+.d7 .d7v9 .cornerBL{background-color:transparent}
+.d7 .d7v9 .cornerBR{padding:0 0 12px 12px}
+.lncontent{width:430px;_height:325px;background:url('/im/bg_ln_content.gif') no-repeat 0 0 transparent}
+div[class~="lncontent"]{min-height:325px}
+.ln3{width:320px;padding:8px 12px 0 12px;background:url('/im/bg_320_white_outline_box.gif') no-repeat 0 0 transparent}
+.ln3x1{width:320px;height:8px;background:url('/im/bg_320_white_outline_box.gif') no-repeat bottom left transparent;margin:0 0 8px 0}
+div[class~="ln3"],div[class~="ln3x1"]{background-image:url('/im/bg_320_white_outline_box.png')}
+.lnframe h3{color:#fff;margin:12px 0 5px 12px}
+.lnframe h5{margin:0}
+.lnframe p{margin:2px 0 3px 0}
+.lnframe{background:url('/im/bg_ln_blue2grey.gif') repeat-x 0 -23px #eee}
+.lncontent p{color:#777}
+.lncontent h3{color:#555;margin-bottom:1px}
+.lninner{padding:33px 30px 0px 0px}
+.lninner p{margin:0 0 4px 0}
+.d7,.d7v9,.cornerBL,.cornerBR{float:left}
+.cornerBR:after,.lninner .lnitem:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.ln1 iframe,.lncontent{float:left}
+.ln1 iframe{margin:23px 18px 0 0}
+.lnbx{width:756px;padding:0 0 6px 0;background:url('/im/bg_246_white_box.gif') repeat-x left bottom transparent;clear:both;margin:10px 0 0 0;float:left}
+.lnbxw1{width:756px;background:url('/im/bg_246_white_box.gif') repeat-x 0 0 transparent;float:left}
+.ln2 h2{float:left;width:370px;clear:both;font-size:2em}
+.lnbttns{float:right;width:380px;text-align:right;margin:3px 12px 0 0}
+.lnbttns .hotbutton {margin:0 0 0 1px}
+.lnbxs{float:left;width:246px;margin:0 9px 6px 0}
+.lnbx3{margin-right:0}
+.lnbxsw1{padding:0 8px 0 0}
+.lnbxsw1 p,.lnbxsw1 ul{padding-left:8px}
+.lnbxs h4,.lnbxs h4 a,.lnbxs h4 a:visited{color:#E76F00;margin-top:0}
+.lnbxs h4 a{padding:8px 0 0 8px;display:block}
+.k2v5simple img,.lnbxs img{float:right;margin:3px 0 0 8px}
+
+.lninner a.icon{display:block;float:left;font-size:13px}
+.lninner .chapterlist h5.chaptertitle{margin:2px 4px 0 0}
+.lninner .chapterlist {float:right}
+
+.k2v5title {width:756px}
+.k2v5title h4{padding:9px 0 4px 8px;margin-bottom:0;background:url('/im/bg_k2v5_tab.gif') top left no-repeat transparent;width:238px;position:relative;top:-29px;z-index:2;color:#555}
+.k2v5{margin:0;border:#f0f solid 0}
+
+.k2v5 div{margin:0;float:left}
+.k2v5w1{background:url('/im/bg_k2v5.gif') bottom left repeat-y transparent;width:756px;position:relative;top:-30px;border-top:#b3bd00 1px solid}
+.k2v5w2{padding:8px 9px 9px 9px}
+.pos2 {margin-left:-255px}
+.pos2 h4{margin-left:255px}
+.pos3 {margin-left:-510px}
+.pos3 h4{margin-left:510px}
+ 
+.k2v5simple {width:183px;border-left:#999 1px solid;height:150px}
+div[class~="k2v5simple"]{min-height:165px;height:auto}
+.k2v5simple h5,.k2v5simple p,.k2v5simple ul{padding-left:8px;padding-right:8px}
+.k2v5first h5,.k2v5first p,.k2v5first ul{padding-left:0px;padding-right:8px}
+.k2v5simple h5{border-bottom:#999 1px solid;color:#E76F00;padding-bottom:3px}
+.k2v5simple ul li{padding-bottom:1px}
+.k2v5first{border-left:0}
+.lnitem .lnarrow{float:left;padding:0 8px 0 3px;width:15px;height:27px}
+.lnitemw1 {float:left;width:368px}
+.lninner hr{margin-left:30px}
+

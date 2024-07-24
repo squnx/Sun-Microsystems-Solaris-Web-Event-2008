@@ -1,0 +1,65 @@
+/* ###########################################################################
+
+GLOBAL ASSETS RELEASE v2.7.1
+
+SUN PREVIEWS_SUN.CSS v1.0
+
+BUILD DATE: 20070531
+
+COPYRIGHT SUN MICROSYSTEMS INC. 2007
+
+IF YOU WISH TO ADD TO OR EDIT THIS CSS CONTACT webdesign -at- sun.com FIRST!
+
+NOTE: YOU *MUST* CHANGE ALL REFERENCES TO /IM TO REFLECT THE APPROPRIATE DIRECTORY.
+
+########################################################################### */
+
+#prReviewSummary{border:none;background:none}
+span.prSummaryCobrand{font-size:11px;display:block;margin-top:-5px}
+span.prSummaryCobrand a{font-size:11px}
+div .prSummaryRating{font-size:12px;font-weight:normal;margin-top:5px}
+.prSummaryValue{font-weight:normal}
+.prSummaryRating b{color:#000000}
+.prSummaryKey,.prReviewKey{width:auto;padding-right:5px;padding-top:3px}
+.prSummaryValue,.prReviewValue{margin-left:0px;padding-left:0px;padding-top:3px;width:84%;display:block;float:left}
+.prSummaryHeader{background:transparent}
+.prSummaryTitle{display:block;font-size:15px;padding:0 0 .5em 0;text-transform:none}
+.prSnippetEngine div{padding:2px}
+.prSummaryPrintableViewLink,.prSnippetTitle,.prSnippetRatingClickable,.prSnippetMsg{display:none}
+.prSnippetRatingUnclickable{display:block}
+div div.prSnippetWriteReview,#prContents a[href="#ReviewHeader"]{background:url("/im/ar_dbl_blue.png") no-repeat top left;padding:0px 0px 3px 10px;margin:4px 0px 0px 0px}
+div div.prSnippetReadReviews{background:url("/im/ar_dbl_blue.png") no-repeat top left;padding:0px 0px 3px 10px;margin:0px}
+.prSnippetWriteReview a,a#writeReview{background:url("/im/ic_open_win.gif") no-repeat right top;padding-right:18px}
+div div.prSnippetMsg,div div.prSnippetRatingClickable,div.prSnippetRatingUnclickable{padding-left:0px}
+a#writeReview{margin-left:5px}
+div.prSummaryRating,.prSnippetNumberOfRatingsText{font-size:11px;color:#999;vertical-align:middle}
+div.prSummaryRating{border:0px;padding:0px}
+div.prSummaryRating b{font-size:13px;vertical-align:middle}
+div.prSummaryWriteReview{text-align:left;margin-left:0px}
+div.prSummaryBody{margin-bottom:0px;padding-bottom:0px}
+div.prReviewSort{margin-top:0px}
+div.prReviewTools span,div.prReviewTools span a{font-size:11px}
+.prReviewHelpfulText b{font-size:12px;color:#E76F00;padding-bottom:5px;display:block}
+.prReviewHelpfulCount,.prReviewHelpful{font-size:11px}
+div.prReviewRating img{padding:0px 0px;vertical-align:middle}
+.prReviewText{clear:both;margin-top:0px}
+div.prReviewHelpfulText{border-bottom:1px solid #ccc;margin:0px;padding:0px}
+div.prReviewWrap{border-bottom:1px solid #FFF;margin:0px;padding:15px 0px 0px 0px}
+div.prReviewWrap p{margin:0px;padding:0px}
+div.prMerchantResponse{border:1px solid #ccc}
+p.prReviewHelpfulText{padding:0 0 5px 0 !important}
+div.prReviewTools{padding-top:10px}
+div.prMerchantResponse{margin:10px 0px}
+div.prReviewSort{border:0px;background:#CCDAE3}
+div.prSummaryBody p{font-weight:bold;margin:8px 0px 0px 0px}
+div.prReviewPoints{margin-top:3px}
+.prReviewCount{text-transform:capitalize}
+.prReviewHelpfulText a.prReviewHelpfulTextLink {margin:0px 3px}
+.prReviewReportIssue{margin-left:1px}
+.prReviewRatingHeadline{font-size:13px;vertical-align:middle}
+.prVerified{padding:0px 3px 0px 6px}
+
+/* ie56 */
+div div.prSnippetWriteReview,#prContents a[href="#ReviewHeader"]{_background:url("/im/ar_dbl_blue.gif") no-repeat top left}
+div div.prSnippetReadReviews{_background:url("/im/ar_dbl_blue.gif") no-repeat top left}
+
